@@ -1,0 +1,124 @@
+/* GRID DU BODY PRINCIPAL */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav nav"
+        "couverture couverture couverture  couverture"
+        "article article article article"
+        "container_producteur container_producteur container_producteur container_producteur"
+        "container_produits container_produits container_produits container_produits";
+
+}
+
+.nav {
+    grid-area: nav;
+    background-color: rgb(255, 255, 255);
+}
+
+.couverture {
+    grid-area: couverture;
+    background-color:#0a6e539a;
+    text-align: center;
+}
+
+.article {
+    grid-area: article;
+    background-color: #0a6e539a ;
+}
+
+
+body {
+    background-color: none;
+}
+
+/* CSS DU NAV */
+.nav ul li{
+    float: left;
+    margin:20px;
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.nav ul li a:hover{
+    color:orangered;
+}
+
+
+/* CSS DU FOOTER */
+footer p{
+    text-align: center;
+    background-color: #0a6e539a;
+}
+
+
+/* CSS de la page producteurs */
+.container_producteur{
+    grid-area: container_producteur;
+    background-color: #0a6e539a ;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex: auto;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.producteurimg{
+    width: 400px;
+    height: auto;
+}
+
+.container_producteur p{
+    padding-right: 20px;
+}
+
+
+/* CSS de la page produits */
+
+.container_produits{
+    grid-area: container_produits;
+    background-color: #0a6e539a;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex: auto;
+    row-gap: 50px;
+    column-gap: 50px;
+  
+}
+.imgproduit{
+    width: 300px;
+   
+}
+
+/* GRID DU BODY PRINCIPAL */
+body {
+    background-color: rgb(243, 238, 238);
+}
+
+/* #login {
+    display: block;
+}
+
+#inscription {
+    display: block;
+} */
+
+
+/* CSS PAGE LOGIN */
+
+.container-login{
+    grid-area: container_producteur;
+    background-color: #0a6e539a ;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    flex: auto;
+    row-gap: 50px;
+    column-gap: 50px;
+}
