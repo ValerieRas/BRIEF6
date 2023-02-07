@@ -5,7 +5,7 @@
     <div class="container">
         <div class="nav">
             <?php
-                include "partials/Navconnect.php";
+                // include "partials/Navconnect.php";
             ?>
         </div>
         <div class="article">

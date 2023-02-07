@@ -11,6 +11,9 @@
         <div class="article">
         <h1>Mettre à jour inventaire</h1>
 
+
+        <a href=table_produits.php><button id="retour">Retour inventaire</button></a>
+        <br><br><br>
         <form action="#" method=POST>
             <div>
                 <label for="NUMPROD">Numéro produits</label>

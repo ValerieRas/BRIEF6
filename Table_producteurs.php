@@ -5,14 +5,15 @@
     <div class="container">
         <div class="nav">
             <?php
-                include "partials/Navconnect.php";
+                // include "partials/Navconnect.php";
             ?>
         </div>
         <div class="article">
         <h1>Liste des producteurs</h1>
         <br><br><br> 
         <a href=javascript:history.go(-1)><button id="retour">Retour</button></a>
-        <!-- <a href="create_produits.php"><button id="valid">Nouveau producteur</button></a> -->
+        
+        <a href="create_producteur.php"><button id="valid">Nouveau producteur</button></a>
 
         <br><br><br>
         <table border="1">
@@ -43,8 +44,8 @@
                 <td><?php echo $donnees['OCCUPRO']?></td>
                 <td><?php echo $donnees['ADRPRO']?></td>
                 <td><?php echo $donnees['MAILPRO']?></td>
-                <td><a href='table_delete.php?NUMPRO=<?= $donnees["NUMPRO"] ?>'><input type='submit' id='valid' value='supprimer'></a>
-                <a href='table_modif.php?NUMPRO=<?= $donnees["NUMPRO"] ?>'><input type='submit' id='valid'value='modifier'></a></td>
+                <td><a href='table_delete_pro.php?NUMPRO=<?= $donnees["NUMPRO"] ?>'><input type='submit' id='valid' value='supprimer'></a>
+                <a href='table_modif_pro.php?NUMPRO=<?= $donnees["NUMPRO"] ?>'><input type='submit' id='valid'value='modifier'></a></td>
                 </tr>
                 <?php }   ?>
             </tbody>

@@ -8,7 +8,7 @@ session_start();
 <div class="container">
         <div class="nav">
             <?php
-                include "partials/Navproducteur.php";
+                // include "partials/Navproducteur.php";
             ?>
         </div>
         <div class="article">

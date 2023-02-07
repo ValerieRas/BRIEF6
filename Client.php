@@ -11,7 +11,7 @@
        <center><h1>Bienvenu a la page Client</h1></center>
         <nav class="nav">
            <ul>        
-               <li><a href="Panier.php">Panier</a></li>    
+               <li><a href="Page_Panier.php">Panier</a></li>    
                <li><a href="partials/deconnexion.php">logout</a></li>
           </ul> 
         </nav>   

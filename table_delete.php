@@ -11,11 +11,14 @@
     <div class="container">
         <div class="nav">
             <?php
-                include "partials/Navconnect.php";
+                // include "partials/Navconnect.php";
             ?>
         </div>
         <div class="article">
         <h1>suppression produits</h1>
+
+        <a href=table_produits.php><button id="retour">Retour inventaire</button></a>
+        
             <?php
                 include "partials/connexion.php";
 

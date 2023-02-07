@@ -10,6 +10,9 @@
         </div>
         <div class="article">
         <h1>Panier</h1>
+
+        <a href=javascript:history.go(-1)><button id="retour">Retour</button></a>
+        
         <table>
             
         </table>

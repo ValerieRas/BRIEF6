@@ -47,7 +47,7 @@ if (isset($_POST['envoyer'])){
     
     else{
 
-      if($bdd->exec(" INSERT INTO loginclient( prenom ,nom ,motdepass, email) VALUES ('$prenom' ,'$nom','$motdepass','$email' )"))
+      if($bdd->exec(" INSERT INTO client(NOMCLI,PRENCLI, MAILCLI, MOTDEPASSE) VALUES ('$nom' ,'$prenom','$email','$motdepass' )"))
            {
                 echo "La personne a bien été ajoutée ! " .'<br />';
                 $prenom= '';
@@ -83,10 +83,10 @@ if (isset($_POST['sub'])){
         
 // ------------------Connexion pour le client
      
-$reponse = $bdd->prepare("SELECT * FROM loginclient WHERE email='$email1' ");
+$reponse = $bdd->prepare("SELECT * FROM CLIENT WHERE MAILCLI='$email1' ");
 $reponse->execute();
 $user = $reponse->fetch();
- if ($_POST['email1'] ==$user['email']  && $_POST['motdepass1'] ==$user['motdepass'] ){
+ if ($_POST['email1'] ==$user['MAILCLI']  && $_POST['motdepass1'] ==$user['MOTDEPASSE'] ){
                 echo 'succes' . "<br>" ;
                 header('Location: Client.php');
                 
