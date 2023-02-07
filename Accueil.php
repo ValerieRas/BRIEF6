@@ -1,7 +1,7 @@
 <html lang="en">
 <?php  
 $title = "accueil";
-include "entete.php" ?>
+include "partials/entete.php" ?>
 <body>
     <div class="container">
         <div class="nav">
@@ -13,6 +13,6 @@ include "entete.php" ?>
     </div>
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

@@ -17,7 +17,7 @@
         <div class="article">
         <h1>suppression produits</h1>
             <?php
-                include "connexion.php";
+                include "partials/connexion.php";
 
                 // récupérer le numéro employé
 
@@ -42,6 +42,6 @@
     </div>
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

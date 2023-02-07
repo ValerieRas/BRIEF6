@@ -3,12 +3,12 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
 <div class="container">
         <div class="nav">
             <?php
-                include "partials/Navconnect.php";
+                include "partials/Navproducteur.php";
             ?>
         </div>
         <div class="article">
@@ -19,7 +19,7 @@ session_start();
         <?php
         
         // Entrer dans la base de données
-        include "connexion.php";
+        include "partials/connexion.php";
 
         $reponse=$BDD->query('SELECT MAILPRO FROM PRODUCTEUR');
         if ($reponse==true){
@@ -63,5 +63,5 @@ session_start();
     </div>
 </body>
 <?php
-include './footer.php';
+include 'partials/footer.php';
 ?>

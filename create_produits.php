@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
     <div class="container">
         <div class="nav">
@@ -31,7 +31,12 @@
                 <label for="PRIXPROD">Prix de produit</label>
                 <input type="text" id="PRIXPROD" name="PRIXPROD" value="" >
             </div>
-            <br><br><br>
+            <br><br>
+            <div>
+                <label for="STOCK">STOCK</label>
+                <input type="text" id="STOCK" name="STOCK" value="" >
+            </div>
+            <br>
             <div>
             <input type="submit" id="valid" value="Valider">
             </div>
@@ -40,7 +45,7 @@
     </div>
     <?php
     
-    include "connexion.php";
+    include "partials/connexion.php";
 
     // les nouvelles données de la table
 

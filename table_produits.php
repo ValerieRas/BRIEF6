@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
     <div class="container">
         <div class="nav">
@@ -33,7 +33,7 @@
                 <?php
 
                 // Entrer dans la base de données
-                include "connexion.php";
+                include "partials/connexion.php";
 
                 // Affichage de la table
 
@@ -57,6 +57,6 @@
     </div>
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

@@ -3,9 +3,9 @@ session_start();
 ?>
 
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
-    <?php  include "partials/Navproducteur.php" ?>
+    <?php  include "partials/NavAdmin.php" ?>
     <div class="article">
        <center><h1>Bienvenue sur la page Admin</h1></center>
        
@@ -19,6 +19,6 @@ session_start();
 
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

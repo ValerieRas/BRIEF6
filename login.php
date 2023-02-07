@@ -2,8 +2,8 @@
 <?php
 $title = "accueil";
 include 'form.php';
-include 'connexion.php';
-include "entete.php";?>
+include 'partials/connexion.php';
+include "partials/entete.php";?>
 
 <body>
   <div class="container">
@@ -75,6 +75,6 @@ include "entete.php";?>
   
 </body>
     <?php
-    include 'footer.php';
+    include 'partials/footer.php';
     ?>
 </html>

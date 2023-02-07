@@ -105,6 +105,6 @@
         
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

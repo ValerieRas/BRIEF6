@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
   
 
@@ -62,7 +62,7 @@
 </div>
 
 <?php
-include './footer.php';
+include 'partials/footer.php';
 ?>
 
 </html>

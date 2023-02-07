@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
     <div class="container">
         <div class="nav">
             <?php
-                include "partielas/Navigation.php";
+                include "partials/Navigation.php";
             ?>
         </div>
         <div class="article">

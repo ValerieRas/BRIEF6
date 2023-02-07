@@ -18,7 +18,7 @@
         <h1>MODIFICATION PRODUITS </h1>
         <?php   
             // Entrer dans la base de données
-            include "connexion.php";
+            include "partials/connexion.php";
         
             $NUMPROD= $_GET['NUMPROD'];
             $reponse = $BDD->query("SELECT * FROM produits WHERE NUMPROD=$NUMPROD");
@@ -89,6 +89,6 @@
     </div>
 </body>
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 </html>

@@ -116,12 +116,7 @@
 </div>   
 </body>
 
-<footer>
 <?php
-include './footer.php';
+include 'partials/footer.php';
 ?>
-    <!-- <p>
-        Copyright © Nisreen - Paul - Farnaz - Valérie
-    </p> -->
-</footer>
 </html>

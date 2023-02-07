@@ -1,5 +1,5 @@
 <html lang="en">
-<?php  include "entete.php" ?>
+<?php  include "partials/entete.php" ?>
 <body>
 
         <div class="container">
@@ -12,7 +12,7 @@
         <nav class="nav">
            <ul>        
                <li><a href="Panier.php">Panier</a></li>    
-               <li><a href="deconnexion.php">logout</a></li>
+               <li><a href="partials/deconnexion.php">logout</a></li>
           </ul> 
         </nav>   
         </div>
@@ -25,7 +25,7 @@
 </body>
 
 <?php
-include "footer.php";
+include "partials/footer.php";
 ?>
 
 </html>
